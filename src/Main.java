@@ -19,5 +19,8 @@ public class Main {
 
     BankAccount newAccount = new BankAccount("Keilin", "kl.email.com", "+254 701 049303");
     newAccount.getAccountDetails();
+
+    Customer Emmanuel = new Customer("Emmanuel Omulo", "eo@protonmail.com");
+    System.out.println(Emmanuel.getCreditLimit());
   }
 }

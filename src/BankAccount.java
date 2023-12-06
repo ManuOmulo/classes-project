@@ -7,7 +7,7 @@ public class BankAccount {
   private String phoneNumber;
 
 
-//  ---------- CONSTRUCTOR ---------------
+//  ---------- CONSTRUCTORS ---------------
   public BankAccount(int accountNumber, double accountBalance, String customerName, String email, String phoneNumber) {
     this.accountNumber = accountNumber;
     this.accountBalance = accountBalance;
@@ -19,6 +19,7 @@ public class BankAccount {
   public BankAccount(String customerName, String email, String phoneNumber) {
     this(10000001, 0.00, customerName, email, phoneNumber);
   }
+
 
   // --------------- Getters ----------------
   public int getAccountNumber() {
