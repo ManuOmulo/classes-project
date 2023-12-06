@@ -1,12 +1,12 @@
 public class Main {
   public static  void main(String[] args) {
-    BankAccount acc1 = new BankAccount();
-
-    acc1.setAccountNumber(12220229);
-    acc1.setAccountBalance(200_000);
-    acc1.setCustomerName("Emmanuel Omulo");
-    acc1.setPhoneNumber("+254 705 994281");
-    acc1.setEmail("eomulo@protonmail.com");
+    BankAccount acc1 = new BankAccount(
+        128282929,
+        140_000,
+        "Emmanuel Omulo",
+        "eomulo@protonmail.com",
+        "+254 705 994281"
+    );
 
     acc1.getAccountDetails();
 
