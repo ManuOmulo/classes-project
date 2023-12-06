@@ -17,7 +17,7 @@ public class Customer {
   }
 
   public Customer() {
-    this("John Doe", 100_000, "example@example.com");
+    this("John Doe", "example@example.com");
   }
 
 
