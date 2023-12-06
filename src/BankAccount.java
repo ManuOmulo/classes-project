@@ -16,8 +16,11 @@ public class BankAccount {
     this.phoneNumber = phoneNumber;
   }
 
+  public BankAccount(String customerName, String email, String phoneNumber) {
+    this(10000001, 0.00, customerName, email, phoneNumber);
+  }
 
-// --------------- Getters ----------------
+  // --------------- Getters ----------------
   public int getAccountNumber() {
     return accountNumber;
   }

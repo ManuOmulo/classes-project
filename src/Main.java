@@ -16,5 +16,8 @@ public class Main {
     acc1.withdraw(197999.43);
 
     acc1.getAccountDetails();
+
+    BankAccount newAccount = new BankAccount("Keilin", "kl.email.com", "+254 701 049303");
+    newAccount.getAccountDetails();
   }
 }
